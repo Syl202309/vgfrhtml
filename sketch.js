@@ -24,7 +24,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 600);
+  //createCanvas(400, 600);
+  createCanvas(windowWidth * 0.8, windowHeight * 0.8);
   background(0);
   
   // Add event listeners to the buttons
